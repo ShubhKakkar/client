@@ -73,10 +73,10 @@ const ProductList = () => {
 
   return (
     <div className="min-h-screen bg-light">
-      <h2 className="text-orangeRed text-7xl font-serif font-medium indent-4 grid place-items-center py-16">
+      <h2 className="text-orangeRed text-5xl md:text-7xl font-serif font-medium indent-4 grid place-items-center py-16">
         New Arrivals
       </h2>
-      <div className="grid grid-cols-4 gap-4 gap-y-8 p-8 cursor-pointer pt-0">
+      <div className="grid grid-cols-1 md:grid-cols-4 gap-4 gap-y-8 p-4 md:p-8 cursor-pointer pt-0">
         {products?.map((product) => {
           return (
             <div key={product?._id} className="bg-light relative">
