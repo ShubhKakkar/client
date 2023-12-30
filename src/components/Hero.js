@@ -13,7 +13,7 @@ const Hero = () => {
       scale: 0.1,
       transformOrigin: "bottom center",
       scrollTrigger: {
-        scrub: 4,
+        scrub: 1.5,
         trigger: "#hero",
         start: "top top",
         end: "bottom end",

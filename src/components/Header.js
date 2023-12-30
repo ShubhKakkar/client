@@ -31,7 +31,7 @@ const Header = () => {
       id="main-header"
       className="flex items-center justify-between p-4 fixed w-full bg-transparent transition duration-300 ease-in-out z-40"
     >
-      <button className="bg-light hover:bg-transparent hover:border-2 hover:border-light hover:text-light cursor-pointer border-2 border-orangeRed text-orangeRed px-4 py-1 rounded-full text-xl font-medium">
+      <button className="bg-light hover:bg-transparent hover:border-2 hover:border-light hover:text-light cursor-pointer border-2 border-orangeRed text-orangeRed px-4 py-1 rounded-full text-xl font-medium ease-in duration-200">
         Menu
       </button>
       {checkPoint && (
@@ -39,7 +39,7 @@ const Header = () => {
           refill
         </div>
       )}
-      <button className="bg-light hover:bg-transparent hover:border-2 hover:border-light hover:text-light cursor-pointer border-2 border-orangeRed text-orangeRed px-4 py-1 rounded-full text-xl font-medium">
+      <button className="bg-light hover:bg-transparent hover:border-2 hover:border-light hover:text-light cursor-pointer border-2 border-orangeRed text-orangeRed px-4 py-1 rounded-full text-xl font-medium ease-in duration-200">
         Order
       </button>
     </header>
